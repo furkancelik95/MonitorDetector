@@ -4,3 +4,10 @@ __pycache__/
 .env
 .venv/
 venv/
+
+# İndirilen YOLO ağırlıkları (bıçak modeli ilk çalıştırmada HuggingFace'ten iner)
+*.pt
+models/
+
+# Eski kopya klasör
+MonitorDetector/
